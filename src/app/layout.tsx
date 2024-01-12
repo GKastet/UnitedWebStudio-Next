@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   title: {
     default: "United Web Studio",
-    template: "%s | United"
+    template: "United | %s"
   },
   description: 'United Web Studio',
 }
