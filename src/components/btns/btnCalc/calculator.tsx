@@ -4,6 +4,7 @@ import { useState } from "react";
 
 const Calculator = () => {
   const [number, setNumber] = useState(0);
+  console.log('number: ', number);
 
   const handleIncrement = () => {
     setNumber(number + 1);
