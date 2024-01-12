@@ -1,6 +1,7 @@
 //Page Projects
 import Link from "next/link";
 import stylesPageProjects from "./pageProjects.module.css";
+import Calculator from "@/components/Btns/BtnCalc/Calculator";
 
 const PageProjects = () => {
   const { titleCommon, title } = stylesPageProjects;
@@ -12,6 +13,7 @@ const PageProjects = () => {
       <h3 className={title}>Title</h3>
       <Link href='/contacts'>To ContactsPage | </Link>
       <Link href='/'>To Main</Link>
+      <Calculator/>
     </>
   );
 };
