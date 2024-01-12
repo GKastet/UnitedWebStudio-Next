@@ -1,5 +1,5 @@
-import stylesPageContacts from "./pageContacts.module.css";
 import Link from "next/link";
+import stylesPageContacts from "./pageContacts.module.css";
 
 const PageContacts = () => {
   const { titleCommon, title } = stylesPageContacts;

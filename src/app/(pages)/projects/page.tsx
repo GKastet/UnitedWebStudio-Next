@@ -1,5 +1,5 @@
-import stylesPageProjects from "./pageProjects.module.css";
 import Link from "next/link";
+import stylesPageProjects from "./pageProjects.module.css";
 
 const PageProjects = () => {
   const { titleCommon, title } = stylesPageProjects;
