@@ -7,7 +7,7 @@ const PageProjects = () => {
       <h1>PageProjects</h1>
       <h2 className={titleCommon}>Common Title</h2>
       <h3 className={title}>Title</h3>
-      {/* <h3 className={title}>Title</h3> */}
+      <h3 className={title}>Title</h3>
     </>
   );
 };
