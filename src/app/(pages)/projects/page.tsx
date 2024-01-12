@@ -1,7 +1,11 @@
 //Page Projects
+import { Metadata } from "next";
 import Link from "next/link";
 import stylesPageProjects from "./pageProjects.module.css";
 
+export const metadata: Metadata = {
+  title: "Projects",
+};
 
 const PageProjects = () => {
   const { titleCommon, title } = stylesPageProjects;
@@ -11,8 +15,8 @@ const PageProjects = () => {
       <h2 className={titleCommon}>Common Title</h2>
       <h3 className={title}>Title</h3>
       <h3 className={title}>Title</h3>
-      <Link href='/contacts'>To ContactsPage | </Link>
-      <Link href='/'>To Main</Link>      
+      <Link href="/contacts">To ContactsPage | </Link>
+      <Link href="/">To Main</Link>
     </>
   );
 };
