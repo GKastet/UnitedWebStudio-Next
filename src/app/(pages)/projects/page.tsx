@@ -12,8 +12,7 @@ const PageProjects = () => {
       <h3 className={title}>Title</h3>
       <h3 className={title}>Title</h3>
       <Link href='/contacts'>To ContactsPage | </Link>
-      <Link href='/'>To Main</Link>
-      {/* <Calculator/> */}
+      <Link href='/'>To Main</Link>      
     </>
   );
 };
