@@ -3,7 +3,6 @@ import Link from "next/link";
 import stylesPageContacts from "./pageContacts.module.css";
 import Calculator from "@/components/Btns/BtnCalc/Calculator";
 
-
 const PageContacts = () => {
   const { titleCommon, title } = stylesPageContacts;
 
