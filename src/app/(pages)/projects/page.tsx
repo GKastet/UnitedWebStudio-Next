@@ -2,6 +2,7 @@
 import Link from "next/link";
 import stylesPageProjects from "./pageProjects.module.css";
 
+
 const PageProjects = () => {
   const { titleCommon, title } = stylesPageProjects;
   return (
@@ -11,7 +12,7 @@ const PageProjects = () => {
       <h3 className={title}>Title</h3>
       <h3 className={title}>Title</h3>
       <Link href='/contacts'>To ContactsPage | </Link>
-      <Link href='/'>To Main</Link>
+      <Link href='/'>To Main</Link>      
     </>
   );
 };
