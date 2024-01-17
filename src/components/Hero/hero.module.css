@@ -5,22 +5,29 @@
 .hero h1 {
   color: #1c0f0f;
   text-transform: uppercase;
-  font-size: 120px;
-  font-family: "700-proxima-nova";
+  font-size: 116px;
+  font-family: Montserrat;
+  font-weight: 700;
   margin-bottom: 45px;
+  line-height: 1.2;
 }
 
 .hero h1 span {
   display: inline-block;
-  width: 356px;
-  height: 82px;
+  width: 354px;
+  height: 80px;
   background-image: url("/images/girl.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin-right: 40px;
+  border-radius: 200px;
+  border: 2px solid #E7F63C;
 }
 
 .hero h1 > span:first-child {
-  width: 511px;
+  width: 509px;
   background-image: url("/images/computerBoy.png");
-  margin-left: 40px;
+  margin: 0 0 0 40px;
 }
 
 .hero > div {
@@ -53,9 +60,10 @@
 .hero button {
   text-transform: uppercase;
   font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 500;
   color: #1c0f0f;
   position: absolute;
-  margin-bottom: 35px;
   top: 321px;
   right: 0;
   background-color: #e7f63c;
