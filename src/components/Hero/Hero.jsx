@@ -22,11 +22,11 @@ function Hero() {
             </span>
           </button>
           <Description>
-          We specialize in bespoke web design and innovative development, <span>bringing your brand to life</span> with visually stunning interfaces and seamless functionalities. <span>Collaborate with us </span>for a distinctive digital experience.
+          We specialize in bespoke web design and innovative development, <span>bringing your brand to life</span> with visually stunning interfaces and seamless features. <span>Collaborate with us now </span> for an exceptional, immersive digital experience.
           </Description>
         </div>
         <div className={styles.hero}>
-          <Spline scene="https://prod.spline.design/ZmWrmIqc2GrpK0kr/scene.splinecode" />
+        <Spline scene="https://prod.spline.design/RYWKcIOkNx-li9UP/scene.splinecode" />
         </div>
       </div>
     </section>
