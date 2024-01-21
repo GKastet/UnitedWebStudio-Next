@@ -34,9 +34,10 @@
   height: 1225px;
   display: flex;
   margin-left: 178px;
-  gap: 214px;
+  gap: 225px;
   padding-top: 96px;
   margin: 0 auto;
+  padding-left: 178px;
 }
 
 .hero > div > div:first-child {
@@ -47,13 +48,17 @@
 }
 
 .hero div + div {
-  padding-top: 168px;
+  padding-top: 78px;
   outline: 1px solid blue;
   width: 766px;
   margin: 0;
   display: block;
   overflow: hidden;
   height: 781.5px;
+}
+
+.hero div + div > div {
+    padding: 0;
 }
 
 .hero button {

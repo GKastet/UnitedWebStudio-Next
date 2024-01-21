@@ -26,7 +26,7 @@ function Hero() {
           </Description>
         </div>
         <div className={styles.hero}>
-        <Spline scene="https://prod.spline.design/024BF54Q-SZTRmNI/scene.splinecode" />
+        <Spline scene="https://prod.spline.design/RYWKcIOkNx-li9UP/scene.splinecode" />
         </div>
       </div>
     </section>
