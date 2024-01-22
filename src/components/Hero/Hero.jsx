@@ -1,13 +1,13 @@
 "use client"
 import styles from "./hero.module.css";
-// import { HiOutlineArrowUpRight } from "react-icons/hi2";
-// import Spline from "@splinetool/react-spline";
-// import Description from "../shared/Description";
+import { HiOutlineArrowUpRight } from "react-icons/hi2";
+import Spline from "@splinetool/react-spline";
+import Description from "../shared/Description";
 
 function Hero() {
   return (
     <section className={styles.hero}>
-      {/* <div>
+      <div>
         <div>
           <h1 className={styles.hero}>
             Best
@@ -28,7 +28,7 @@ function Hero() {
         <div className={styles.hero}>
         <Spline scene="https://prod.spline.design/RYWKcIOkNx-li9UP/scene.splinecode" />
         </div>
-      </div> */}
+      </div>
     </section>
   );
 }

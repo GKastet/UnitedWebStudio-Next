@@ -1,4 +1,4 @@
-const Footer = ({lang}:{lang:string}) => {
+const Footer = () => {
   return (
     <div>Footer</div>
   )
