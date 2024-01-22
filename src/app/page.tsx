@@ -4,10 +4,9 @@ import styles from "./page.module.css";
 import Hero from "../components/Hero/Hero.jsx";
 import Features from "../components/Features/Features.jsx";
 import About from "../components/About/About.jsx";
-//import Offer from "../components/Offer/Offer.jsx";
-//import FAQ from "../components/FAQ/FAQ.jsx";
-//import Feedback from "../components/Feedback/Feedback.jsx";
-import Feedback from "@/components/Feedback/Feedback";
+import Services from "../components/Services/Services.jsx";
+import FAQ from "../components/FAQ/FAQ.jsx";
+import Order from "../components/Order/Order.jsx";
 import Footer from "@/components/Footer/Footer";
 import FAQ from "@/components/FAQ/FAQ";
 import Offer from "@/components/Offer/Offer";
@@ -21,10 +20,10 @@ export default function Home(prop:any) {
       <Hero />
       <Features />
       <About />
-      <Offer />
+      <Services />
       <FAQ/>
-      <Feedback/>
-      <Footer lang={lang}/>
+      <Order/>
+      <Footer/>
       <Link href="/projects">To ProjectsPage | </Link>
       <Link href="/contacts">To Contacts</Link>
     </main>
