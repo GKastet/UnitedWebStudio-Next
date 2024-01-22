@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/Header/Header";
+import Footer from "@/components/Footer/Footer";
+// import { useState } from "react";
 
 export const metadata: Metadata = {
   title: {
@@ -15,11 +17,13 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // const [lang, setLang] = useState('en')  
   return (
     <html lang="en">
       <body>
         <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   );
