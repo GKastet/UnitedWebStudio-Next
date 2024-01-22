@@ -21,12 +21,7 @@ export default function Home(prop:any) {
       <About />
       <Services />
       <FAQ/>
-<<<<<<< Updated upstream
       <Order/>      
-=======
-      <Order/>
-      <Footer />
->>>>>>> Stashed changes
       <Link href="/projects">To ProjectsPage | </Link>
       <Link href="/contacts">To Contacts</Link>
     </main>
